@@ -1,68 +1,86 @@
+#List all files and directories in the CWD
 ll
+#Remove three files from CWD
 rm fish_notes.backup sorted_notes.txt fish_notes.txt
+#print working directory
 pwd
+#change directory to notebook
 cd notebook/
+#move up one directory
 ..
+#open user manual for git
 man git
+#run javascripting program
 javascripting
-javascripting verify array-filtering.js 
-open array-filtering.js 
+#tell javascripting program to "verify" answer
+javascripting verify array-filtering.js
+#open
+open array-filtering.js
+#create file
 touch array-filtering.js
-javascripting verify arrays.js 
-open arrays.js 
+javascripting verify arrays.js
+open arrays.js
 open a
 touch arrays.js
-javascripting verify for-loop.js 
-open for-loop.js 
+javascripting verify for-loop.js
+open for-loop.js
 touch for-loop.js
-javascripting verify if-statement.js 
-open if-statement.js 
+javascripting verify if-statement.js
+open if-statement.js
 touch if-statement.js
-javascripting verify number-to-string.js 
-open number-to-string.js 
+javascripting verify number-to-string.js
+open number-to-string.js
 touch number-to-string.js
-javascripting verify rounding-numbers.js 
-open rounding-numbers.js 
+javascripting verify rounding-numbers.js
+open rounding-numbers.js
 touch rounding-numbers.js
-javascripting verify numbers.js 
-open numbers.js 
+javascripting verify numbers.js
+open numbers.js
 touch numbers.js
-javascripting verify revisiting-strings.js 
-open revisiting-strings.js 
+javascripting verify revisiting-strings.js
+open revisiting-strings.js
 touch revisiting-strings.js
-javascripting verify string-length.js 
-open string-length.js 
+javascripting verify string-length.js
+open string-length.js
 touch string-length.js
-javascripting 
+javascripting
 javascripting verify strings.js
 touch strings.js
 javascripting verify variables.js
 touch variables.js
-javascripting verify introduction.js 
+javascripting verify introduction.js
 touch introduction.js
 cd javascripting/
+# make directory javascripting
 mkdir javascripting
+# change cwd to week01
 cd ~/Projects/week01
+#install javascripting files
 npm install --global javascripting
+#reset terminal window
 reset
-less instructions 
-less README.md 
+# open instructions in window
+less instructions
+less README.md
 cd clmystery/
+# create a copy of directory
 git clone https://github.com/will-206/clmystery.git
 cp fish_notes.txt fish_notes.backup
+# move notes.txt to fish_notes.txt (rename)
 mv notes.txt fish_notes.txt
+# open user manual on cat command
 man cat
 cat sorted_notes.txt
 cat notes.txt | sort > sorted_notes.txt
 history | sort | grep "week"
 cat notes.txt | grep "a"
-mkdir -p ~/Projects/week01/notebook 
+mkdir -p ~/Projects/week01/notebook
 cat notes.txt | sort | grep "week01"
 cat notes.txt | sort | grep "brew"
 cat notes.txt | sort
 cat notes.txt
 history >> notes.txt
-less notes.txt 
+less notes.txt
 history >notes.txt
 history
 rm notes.txt
@@ -103,7 +121,7 @@ cd ~/will-206.surge.sh/
 cd ~/Documents/
 cd ~d
 cd ~/Downloads/JavaScriptforKids.pdf
-JavaScriptforKids.pdf 
+JavaScriptforKids.pdf
 cd ~_applepay
 cd ~_lp
 cd ~/Downloads/
@@ -158,7 +176,7 @@ man ll
 cd Desktop
 ls -hal
 ls hal
-ls 
+ls
 cd des
 ls -hl
 ls-hl
@@ -171,7 +189,7 @@ groups
 whoami
 touch CNAME
 mkdir will-206.surge.sh
-echo $EDITOR 
+echo $EDITOR
 node
 $ node
 open index.html
@@ -189,8 +207,8 @@ cd will-206.surge.sh/
 mkdir -p ~/Projects/week01
 surge -V
 npm install -g surge
-rm ~/Desktop/test.js 
-node ~/Desktop/test.js 
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
 atom ~/Desktop/test.js
 node -v
 brew install node

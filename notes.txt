@@ -1,0 +1,225 @@
+ll
+rm fish_notes.backup sorted_notes.txt fish_notes.txt
+pwd
+cd notebook/
+..
+man git
+javascripting
+javascripting verify array-filtering.js 
+open array-filtering.js 
+touch array-filtering.js
+javascripting verify arrays.js 
+open arrays.js 
+open a
+touch arrays.js
+javascripting verify for-loop.js 
+open for-loop.js 
+touch for-loop.js
+javascripting verify if-statement.js 
+open if-statement.js 
+touch if-statement.js
+javascripting verify number-to-string.js 
+open number-to-string.js 
+touch number-to-string.js
+javascripting verify rounding-numbers.js 
+open rounding-numbers.js 
+touch rounding-numbers.js
+javascripting verify numbers.js 
+open numbers.js 
+touch numbers.js
+javascripting verify revisiting-strings.js 
+open revisiting-strings.js 
+touch revisiting-strings.js
+javascripting verify string-length.js 
+open string-length.js 
+touch string-length.js
+javascripting 
+javascripting verify strings.js
+touch strings.js
+javascripting verify variables.js
+touch variables.js
+javascripting verify introduction.js 
+touch introduction.js
+cd javascripting/
+mkdir javascripting
+cd ~/Projects/week01
+npm install --global javascripting
+reset
+less instructions 
+less README.md 
+cd clmystery/
+git clone https://github.com/will-206/clmystery.git
+cp fish_notes.txt fish_notes.backup
+mv notes.txt fish_notes.txt
+man cat
+cat sorted_notes.txt
+cat notes.txt | sort > sorted_notes.txt
+history | sort | grep "week"
+cat notes.txt | grep "a"
+mkdir -p ~/Projects/week01/notebook 
+cat notes.txt | sort | grep "week01"
+cat notes.txt | sort | grep "brew"
+cat notes.txt | sort
+cat notes.txt
+history >> notes.txt
+less notes.txt 
+history >notes.txt
+history
+rm notes.txt
+cd ~/notebook
+mkdir notebook
+touch notebook
+touch notes.txt
+../Cellar/git/2.10.2/bin
+ll /usr/local/bin
+which git
+echo $PATH
+echo $path
+cd
+.
+cd /bin
+cd ..
+cd /git/
+cd /bin/
+which brew
+cd /pwd/
+cd /sbin/
+cs /sbin/
+cs /s
+cd  /bin/
+cd bin
+cd /System/Library/
+/local/
+/local
+/usr/
+/Users
+cd /library/
+Library/
+rwho/
+ll -hal
+cd ~_screensaver
+cd ~_locationd
+cd ~/will-206.surge.sh/
+cd ~/Documents/
+cd ~d
+cd ~/Downloads/JavaScriptforKids.pdf
+JavaScriptforKids.pdf 
+cd ~_applepay
+cd ~_lp
+cd ~/Downloads/
+cd .
+cd /
+cd ~
+tree -L 1 ~
+man tree
+tree -L 1 Desktop
+tree -L
+tree ~
+brew install tree
+echo ~
+cd ~/
+open ~/Applications/
+open ~/Desktop/
+cd williamhelton/
+cd desktop
+open .
+open.
+ls -R
+ls -t -lh
+ls -tlh
+man ls
+ls -Slh
+ls -T -i
+ls -T
+ls -lT
+ls -S -t
+ls -C -i
+ls -C
+ls man
+q
+ls -l -i -A -O
+ls -l-i
+ls -l
+ls -h
+ls -A -i
+ls -A
+ls -AA
+ls - Ai
+ls -i
+mal ls
+ls -D
+ls -w
+ls -
+ls -a
+man Library/
+man open
+man la
+man ll
+cd Desktop
+ls -hal
+ls hal
+ls 
+cd des
+ls -hl
+ls-hl
+ls -h /
+ls -l /
+ls
+cd desk
+./
+groups
+whoami
+touch CNAME
+mkdir will-206.surge.sh
+echo $EDITOR 
+node
+$ node
+open index.html
+top
+touch index.html
+.exit
+surge
+git commit -m "add a domain name"
+git add CNAME
+git commit -m "add a tiny web page"
+git add index.html
+atom .
+git init
+cd will-206.surge.sh/
+mkdir -p ~/Projects/week01
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js 
+node ~/Desktop/test.js 
+atom ~/Desktop/test.js
+node -v
+brew install node
+curl -fsSL https://git.io/vXOvh | sh
+cat ~/.gitconfig
+cat~/.gitconfig
+git config --global user.email 'will9_30@yahoo.com'
+git config --global user.name 'will-206'
+git config --global user.name 'YOUR FULL NAME'
+brew doctor
+git --version
+brew install git
+atom /etc/paths
+which fish
+which echo
+echo $EDITOR
+atom ~/.config/fish/config.fish
+atom ~/Downloads/
+brew info fish
+fish_update_completions
+curl -fsSL https://git.io/vXOeC | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew cleanup
+brew upgrade
+brew outdated
+brew update
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+telnet towel.blinkenlights.nl
+ls -G
+uname

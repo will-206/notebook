@@ -1,0 +1,10 @@
+# initialize now reop
+git init
+# add a file to staging area
+git add
+# view staging area
+git status
+# commit staging area to master branch
+git commit
+# view master branch
+git ll
